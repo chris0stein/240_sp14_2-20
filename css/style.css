@@ -1,0 +1,85 @@
+
+/* apply a natural box layout model to all elements */
+*, *:before, *:after {
+	-moz-box-sizing: border-box; 
+	-webkit-box-sizing: border-box; 
+	box-sizing: border-box;
+}
+
+/* make images and video elements responsive */
+img,video{width: auto; max-width: 100%; height: auto; margin: 0 auto 1em;}
+
+body{
+	width:96%;
+	margin:0 auto;
+	border:1px solid #666;
+	background-color: red;
+
+	font-size:100%;
+	line-height:1.5;
+	font-family:sans-serif;
+}
+
+p{
+	margin-bottom: 1em;
+}
+
+h1{
+	font-size: 3em;
+	line-height: 1;
+}
+h2{
+	font-size: 2.3em;
+	line-height: 1.2;
+}
+h3{
+	font-size: 1.8em;
+	line-height: 1.4;
+}
+
+
+
+.track{
+	width: 100%;  /*600/800 */
+	background-color: green;
+	padding:10% 20%;
+
+	clear: both;
+}
+.set{
+	width:50%;
+	float:left;
+	padding:0 2%;
+}
+
+.session{
+	background-color: #666;
+	margin-bottom:1em;
+	padding:2%;
+}
+
+.session h3{
+	font-family: 'Russo One', sans-serif;
+}
+
+.presenter{
+	color:#fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
